@@ -1,5 +1,4 @@
 import allure
-from selenium.webdriver.common.by import By
 
 from locators.feed_page_locators import FeedPageLocators
 from pages.base_page import BasePage

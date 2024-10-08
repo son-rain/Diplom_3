@@ -11,7 +11,6 @@ class LoginPage(BasePage):
     @allure.step("Переходим на страницу Восстановления пароля")
     def click_pwd_recovery_link(self):
         self.wait_and_find_element(LoginPageLocators.PASSWORD_RECOVERY_LINK).click()
-        time.sleep(20)
 
     @allure.step("Заполняем форму и логинимся пользователем")
     def login_user(self, user_data):
